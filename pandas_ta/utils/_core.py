@@ -73,7 +73,7 @@ def signed_series(series: Series, initial: int = None) -> Series:
     Default Example:
     series = Series([3, 2, 2, 1, 1, 5, 6, 6, 7, 5])
     and returns:
-    sign = Series([NaN, -1.0, 0.0, -1.0, 0.0, 1.0, 1.0, 0.0, 1.0, -1.0])
+    sign = Series([nan, -1.0, 0.0, -1.0, 0.0, 1.0, 1.0, 0.0, 1.0, -1.0])
     """
     series = verify_series(series)
     sign = series.diff(1)

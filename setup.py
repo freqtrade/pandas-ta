@@ -51,7 +51,7 @@ setup(
         "data": ["data/*.csv"],
     },
     install_requires=[
-        "numpy==1.26.4",
+        "numpy<3.0.0",
         "pandas"
     ],
     # List additional groups of dependencies here (e.g. development dependencies).

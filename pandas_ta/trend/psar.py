@@ -22,7 +22,7 @@ def psar(high, low, close=None, af0=None, af=None, max_af=None, offset=None, **k
         _dmn = (((dn > up) & (dn > 0)) * dn).apply(zero).iloc[-1]
         return _dmn > 0
 
-    # Falling if the first NaN -DM is positive
+    # Falling if the first nan -DM is positive
     falling = _falling(high.iloc[:2], low.iloc[:2])
     if falling:
         sar = high.iloc[0]
