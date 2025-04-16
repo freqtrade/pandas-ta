@@ -21,7 +21,7 @@ def mcgd(close, length=None, offset=None, c=None, **kwargs):
         return series.iloc[1]
 
     mcg_cell = close[0:].rolling(2, min_periods=2).apply(mcg_, raw=False)
-    mcg_ds = close[:1].append(mcg_cell[1:])
+    mcg_ds = close[:1]._append(mcg_cell[1:])
 
     # Offset
     if offset != 0:
@@ -65,7 +65,7 @@ Calculation:
         series.iloc[1] = (series.iloc[0] + ((series.iloc[1] - series.iloc[0]) / denom))
         return series.iloc[1]
     mcg_cell = close[0:].rolling(2, min_periods=2).apply(mcg_, raw=False)
-    mcg_ds = close[:1].append(mcg_cell[1:])
+    mcg_ds = close[:1]._append(mcg_cell[1:])
 
 Args:
     close (pd.Series): Series of 'close's
