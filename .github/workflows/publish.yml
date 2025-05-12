@@ -34,10 +34,10 @@ jobs:
       #     name: package
       #     path: dist
 
-      - name: Publish 📦 on PyPI Test
-        uses: pypa/gh-action-pypi-publish@v1.8.11
-        with:
-          repository-url: https://test.pypi.org/legacy/
+      # - name: Publish 📦 on PyPI Test
+      #   uses: pypa/gh-action-pypi-publish@v1.8.11
+      #   with:
+      #     repository-url: https://test.pypi.org/legacy/
 
       - name: Publish 📦 on PyPI
         uses: pypa/gh-action-pypi-publish@v1.8.11
