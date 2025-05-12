@@ -1,4 +1,3 @@
-name = "pandas_ta"
 """
 .. moduleauthor:: Kevin Johnson
 """
@@ -7,7 +6,7 @@ from pathlib import Path
 from pkg_resources import get_distribution, DistributionNotFound
 
 
-_dist = get_distribution("pandas_ta")
+_dist = get_distribution("ft-pandas-ta")
 try:
     # Normalize case for Windows systems
     here = Path(_dist.location) / __file__
