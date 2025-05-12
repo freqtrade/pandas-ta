@@ -7,19 +7,21 @@
 Pandas TA - A Technical Analysis Library in Python 3
 =================
 
-[![license](https://img.shields.io/github/license/twopirllc/pandas-ta)](#license)
+[![license](https://img.shields.io/github/license/freqtrade/pandas-ta)](#license)
 [![Python Version](https://img.shields.io/pypi/pyversions/pandas-ta?style=flat)](https://pypi.org/project/pandas_ta/)
 [![PyPi Version](https://img.shields.io/pypi/v/pandas-ta?style=flat)](https://pypi.org/project/pandas_ta/)
 [![Package Status](https://img.shields.io/pypi/status/pandas-ta?style=flat)](https://pypi.org/project/pandas_ta/)
 [![Downloads](https://img.shields.io/pypi/dm/pandas_ta?style=flat)](https://pypistats.org/packages/pandas_ta)
-[![Stars](https://img.shields.io/github/stars/twopirllc/pandas-ta?style=flat)](#stars)
-[![Forks](https://img.shields.io/github/forks/twopirllc/pandas-ta?style=flat)](#forks)
+[![Stars](https://img.shields.io/github/stars/freqtrade/pandas-ta?style=flat)](#stars)
 [![Used By](https://img.shields.io/badge/used_by-170-orange.svg?style=flat)](#usedby)
-[![Contributors](https://img.shields.io/github/contributors/twopirllc/pandas-ta?style=flat)](#contributors)
-[![Issues](https://img.shields.io/github/issues-raw/twopirllc/pandas-ta?style=flat)](#issues)
-[![Closed Issues](https://img.shields.io/github/issues-closed-raw/twopirllc/pandas-ta?style=flat)](#closed-issues)
-[![Buy Me a Coffee](https://img.shields.io/badge/buy_me_a_coffee-orange.svg?style=flat)](https://www.buymeacoffee.com/twopirllc)
+[![Contributors](https://img.shields.io/github/contributors/freqtrade/pandas-ta?style=flat)](#contributors)
 
+## Disclaimer
+
+This is a fork of the original pandas-ta - which was removed from github and pypi and is no longer maintained.
+This fork is maintained by the Freqtrade team and is a compatibility version of the original project to support newer versions of python, pandas and numpy.
+
+## Example chart
 
 
 ![Example Chart](/images/TA_Chart.png)
